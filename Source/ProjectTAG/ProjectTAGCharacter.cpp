@@ -83,7 +83,6 @@ void AProjectTAGCharacter::SetupPlayerInputComponent(class UInputComponent* Play
 
 		//Looking
 		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AProjectTAGCharacter::Look);
-
 	}
 
 }

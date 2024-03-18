@@ -17,8 +17,8 @@ public class ProjectTAG : ModuleRules
             "AIModule",
             "GameplayTasks",
             "SlateCore",
-            "HeadMountedDisplay", 
-			"EnhancedInput" 
+            "HeadMountedDisplay",
+            "EnhancedInput" 
 		});
 
         PublicIncludePaths.Add(ModuleDirectory);
