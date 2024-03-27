@@ -71,6 +71,17 @@ protected:
 	void OnWeapon2(const FInputActionValue& Value);
 	void OnWeapon3(const FInputActionValue& Value);
 
+protected:
+	UFUNCTION(BlueprintPure)
+		float GetPlayerSpeed();
+
+	UFUNCTION(BlueprintPure)
+		float GetPlayerDirection();
+
+	UFUNCTION(BlueprintPure)
+		bool GetPlayerJumping();
+
+
 // Delegate
 private:
 	UFUNCTION()
